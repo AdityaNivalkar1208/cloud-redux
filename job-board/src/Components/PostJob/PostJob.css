@@ -1,0 +1,47 @@
+.postjob-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-fill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.job_title {
+    width: 160px;
+    font-size: 1.2rem;
+}
+
+.box-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.job-input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.submit {
+    color: #fff;
+    background: rgb(130, 67, 225);
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}

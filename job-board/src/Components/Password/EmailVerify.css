@@ -1,0 +1,41 @@
+.Emailverify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem;
+}
+
+.verify-box {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.EmailverifyLabel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.EmailverifyInput {
+    height: 1.5rem;
+    width: 300px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.get-otp {
+    width: 8rem;
+    height: 2rem;
+    background: rgb(130, 67, 225);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
